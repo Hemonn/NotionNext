@@ -253,7 +253,27 @@ const BLOG = {
       url: 'http://music.163.com/song/media/outer/url?id=190233.mp3',
       // cover:
       //       'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    }
+    }，
+    {
+      name: '泸沽湖',
+      artist: '麻园诗人',
+      url: 'http://music.163.com/song/media/outer/url?id=469073823.mp3',
+    }，
+    {
+      name: 'only time',
+      artist: 'Enya',
+      url: 'http://music.163.com/song/media/outer/url?id=29470947.mp3',
+    }，
+    {
+      name: '我用什么把你留住',
+      artist: '福禄寿FloruitShow',
+      url: 'http://music.163.com/song/media/outer/url?id=1306923998.mp3',
+    }，
+    {
+      name: '总有一天你会出现在我身边',
+      artist: '棱镜乐队',
+      url: 'http://music.163.com/song/media/outer/url?id=1303027499.mp3',
+    }，
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
